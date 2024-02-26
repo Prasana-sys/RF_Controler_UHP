@@ -1,0 +1,25 @@
+1. Function - What should the controller be able to do?
+	i. One analog stick - (Insert digikey link)
+	ii. Small screen to be connected via I2C
+	iii. Two buttons A & B
+	iv. Two LEDs (one to show power on, the other to show there is rf connection)
+	v. Communication via radio frequency
+	vi. Two extra buttons (purpose not defined yet) like Select Start on NES controller
+	vii. battery (power bank, preferably small) connected to the USB-C port
+	viii. USB port on the board to provide the power
+	ix. Test points for STLink (SWD)
+	x. power on/off switch
+
+2. Performance - What will the product have to be?
+
+
+
+3. Aesthetics - What should the controller look like?
+
+
+
+
+4. Technical Specifications - What mcu and sensors will the controller use?
+
+
+
