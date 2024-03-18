@@ -11,15 +11,23 @@
 	x. power on/off switch
 
 2. Performance - What will the product have to be?
+	Inputs are succesfully sent to reciever and are displayed accurately
+	Input delay is close to 8 ms (industry average)
 
 
 
 3. Aesthetics - What should the controller look like?
-
-
-
+	Generic Xinput controller style, 3D print a model that has two handles for a comfortable hand position, for prototyping using the PCB itself as a controller would be fine.
 
 4. Technical Specifications - What mcu and sensors will the controller use?
+	STM32-L432KB
+	Accelerometer - potentially
+	NRF24L01
+	I2C screen
+	Analog joystick - https://www.sparkfun.com/products/9032
+	https://learn.sparkfun.com/tutorials/thumb-joystick-hookup-guide/all
 
 
+Running notes:
 
+	Need to figure out how STM32 sends packets of data to Raspberry Pi (the size, the frequency...) - make simple demo with only STM32, Pi, and two atenas (focus is on firmware)
