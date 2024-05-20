@@ -1,0 +1,2 @@
+RF Transceiver - https://www.mouser.com/ProductDetail/Nordic-Semiconductor/NRF24L01P?qs=yqaQSyyJnNiKlgjT8AqoOw%3D%3D
+Antenna - https://www.sparkfun.com/products/18086
