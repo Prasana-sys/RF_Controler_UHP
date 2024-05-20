@@ -13220,7 +13220,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/Yuandi-MICRO_02_G2P3A1T2/C2682521"
 			(at 31.75 38.1 0)
 			(effects
 				(font
@@ -13229,7 +13229,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "MICRO-02-G2P3-A1T2"
 			(at 27.94 36.83 0)
 			(effects
 				(font
