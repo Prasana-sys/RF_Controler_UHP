@@ -1,4 +1,4 @@
-23336283113006463
+23336283127731145
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -48755,13 +48755,6 @@ four-pin M8
 6
 5
 Connector_USB
-MICRO-02-G2P3-A1T2
-
-
-0
-7
-6
-Connector_USB
 USB3_A_Molex_48393-001
 USB 3.0, type A, right angle, http://www.molex.com/pdm_docs/sd/483930003_sd.pdf
 USB 3.0 type A right angle
@@ -63643,6 +63636,13 @@ Yellow 5381 Series LED
 0
 2
 2
+Library
+MICRO-02-G2P3-A1T2
+
+
+0
+7
+6
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
