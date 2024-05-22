@@ -8712,76 +8712,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 229.87 55.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "125a3d92-45ef-45c9-9a0d-77334ebdf996")
-		(property "Reference" "R7"
-			(at 232.41 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2.2k"
-			(at 232.41 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 228.092 55.88 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 229.87 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 229.87 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "05b254f4-d792-4633-aa24-743b4af7ec2a")
-		)
-		(pin "1"
-			(uuid "37b56002-8416-4cce-a394-4a7782fd7d60")
-		)
-		(instances
-			(project "STM_RF_PCB"
-				(path "/d4ad597f-d032-4e81-a375-ce3c44c27662"
-					(reference "R7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 182.88 102.87 0)
 		(unit 1)
@@ -9357,7 +9287,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
 			(at 269.24 34.29 0)
 			(effects
 				(font
@@ -9376,6 +9306,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 269.24 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part ID" "C2718488"
 			(at 269.24 34.29 0)
 			(effects
 				(font
@@ -10680,7 +10619,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 228.092 30.48 90)
 			(effects
 				(font
@@ -10699,6 +10638,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 229.87 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part ID" "0603WAF2201T5E"
 			(at 229.87 30.48 0)
 			(effects
 				(font
@@ -10932,6 +10880,85 @@
 			(project "STM_RF_PCB"
 				(path "/d4ad597f-d032-4e81-a375-ce3c44c27662"
 					(reference "FB1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 229.87 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "639d1631-d604-4009-bacc-44a79c74487d")
+		(property "Reference" "R7"
+			(at 232.41 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2k"
+			(at 232.41 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 228.092 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 229.87 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 229.87 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part ID" "0603WAF2201T5E"
+			(at 229.87 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c3bedbce-36bc-4613-b55f-de7e61cc8b5c")
+		)
+		(pin "1"
+			(uuid "4592ea37-f7d8-4ae9-a2e0-62b79e789511")
+		)
+		(instances
+			(project "STM_RF_PCB"
+				(path "/d4ad597f-d032-4e81-a375-ce3c44c27662"
+					(reference "R7")
 					(unit 1)
 				)
 			)
