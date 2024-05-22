@@ -10886,7 +10886,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 104.14 37.338 90)
 			(effects
 				(font
@@ -10906,6 +10906,15 @@
 		)
 		(property "Description" "Ferrite bead"
 			(at 104.14 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part ID" "GZ2012D101TF"
+			(at 104.14 35.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11783,7 +11792,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 147.0152 48.26 0)
 			(effects
 				(font
@@ -11802,6 +11811,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 146.05 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part ID" "CL10A106KP8NNNC"
 			(at 146.05 44.45 0)
 			(effects
 				(font
@@ -12445,7 +12463,7 @@
 				)
 			)
 		)
-		(property "Value" "200 mA"
+		(property "Value" "120 mA"
 			(at 88.9 33.02 90)
 			(effects
 				(font
@@ -12453,7 +12471,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fuse:Fuse_1206_3216Metric"
 			(at 88.9 33.782 90)
 			(effects
 				(font
@@ -12473,6 +12491,15 @@
 		)
 		(property "Description" "Fuse"
 			(at 88.9 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part ID" "nSMD012"
+			(at 88.9 35.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12987,7 +13014,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 117.8052 48.26 0)
 			(effects
 				(font
@@ -13006,6 +13033,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 116.84 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part ID" "CL10A106KP8NNNC"
 			(at 116.84 44.45 0)
 			(effects
 				(font
@@ -13140,6 +13176,15 @@
 			)
 		)
 		(property "Description" "USB Micro Type B connector"
+			(at 27.94 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part ID" "MICRO-02-G2P3-A1T2"
 			(at 27.94 36.83 0)
 			(effects
 				(font
