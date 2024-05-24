@@ -13901,7 +13901,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:SMA-KWE902"
 			(at 210.82 161.29 0)
 			(effects
 				(font
@@ -13920,6 +13920,15 @@
 			)
 		)
 		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+			(at 210.82 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part ID" "SMA-KWE902"
 			(at 210.82 161.29 0)
 			(effects
 				(font
