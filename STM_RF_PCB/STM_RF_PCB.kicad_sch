@@ -8897,7 +8897,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 343.8652 109.22 0)
 			(effects
 				(font
@@ -8916,6 +8916,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 342.9 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part ID" "CL05B104KO5NNNC"
 			(at 342.9 105.41 0)
 			(effects
 				(font
@@ -9180,7 +9189,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 368.3 170.18 0)
 			(effects
 				(font
@@ -9200,6 +9209,15 @@
 		)
 		(property "Description" "Light emitting diode"
 			(at 368.3 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part ID" "19-213/Y2C-CQ2R2L/3T(CY)"
+			(at 368.3 170.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9932,76 +9950,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 353.06 181.61 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2c32a1a0-4c81-4805-a31b-bfca73c7557d")
-		(property "Reference" "R4"
-			(at 355.6 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2.2k"
-			(at 355.6 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 351.282 181.61 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 353.06 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 353.06 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "50c9b439-a077-43f6-acfe-a55c1db5a04e")
-		)
-		(pin "1"
-			(uuid "a19ab5a2-76bb-4b4f-9151-03e0dcf48aba")
-		)
-		(instances
-			(project "STM_RF_PCB"
-				(path "/d4ad597f-d032-4e81-a375-ce3c44c27662"
-					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "MCU_ST_STM32L4:STM32L432KBUx")
 		(at 317.5 176.53 0)
 		(unit 1)
@@ -10029,7 +9977,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm"
+		(property "Footprint" "Package_DFN_QFN:UFQFPN-32-1EP_5x5mm_P0.5mm_EP3.5x3.5mm"
 			(at 307.34 199.39 0)
 			(effects
 				(font
@@ -10049,6 +9997,15 @@
 			)
 		)
 		(property "Description" "STMicroelectronics Arm Cortex-M4 MCU, 128KB flash, 64KB RAM, 80 MHz, 1.71-3.6V, 26 GPIO, UFQFPN32"
+			(at 317.5 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part ID" "C94784"
 			(at 317.5 176.53 0)
 			(effects
 				(font
@@ -10193,7 +10150,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 277.622 167.64 90)
 			(effects
 				(font
@@ -10220,6 +10177,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part ID" "0402WGF1002TCE"
+			(at 279.4 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9848df81-d98b-4d7a-a721-e1e6c0de6d0c")
 		)
@@ -10230,76 +10196,6 @@
 			(project "STM_RF_PCB"
 				(path "/d4ad597f-d032-4e81-a375-ce3c44c27662"
 					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 313.69 223.52 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3729168d-42bf-4c4f-b04a-eaeda3586e7a")
-		(property "Reference" "C17"
-			(at 317.5 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4.7u"
-			(at 317.5 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 314.6552 227.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 313.69 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 313.69 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "08cc1bec-02e0-4dd8-9aab-cf4c885060ac")
-		)
-		(pin "1"
-			(uuid "96c2fa2c-4002-4036-93b8-b7cd97d753db")
-		)
-		(instances
-			(project "STM_RF_PCB"
-				(path "/d4ad597f-d032-4e81-a375-ce3c44c27662"
-					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -10385,6 +10281,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 274.32 223.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3a26be4a-c2be-477d-9050-12d8458e3e64")
+		(property "Reference" "C14"
+			(at 278.13 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 278.13 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 275.2852 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 274.32 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 274.32 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part ID" "CL05B104KO5NNNC"
+			(at 274.32 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a96f67e3-afbd-4da6-9a45-32957014afc7")
+		)
+		(pin "1"
+			(uuid "69267e08-f84b-4f7d-8cf8-133926ccb7a9")
+		)
+		(instances
+			(project "STM_RF_PCB"
+				(path "/d4ad597f-d032-4e81-a375-ce3c44c27662"
+					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 229.87 24.13 0)
 		(unit 1)
@@ -10445,6 +10420,85 @@
 			(project "STM_RF_PCB"
 				(path "/d4ad597f-d032-4e81-a375-ce3c44c27662"
 					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 313.69 223.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "42e76b29-19c0-4586-bc93-0712d8aa807a")
+		(property "Reference" "C17"
+			(at 317.5 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7u"
+			(at 317.5 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 314.6552 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 313.69 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 313.69 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part ID" "CL10A475KP8NNNC"
+			(at 313.69 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8e33c22c-778c-46ac-b0fe-3defb0351bab")
+		)
+		(pin "1"
+			(uuid "52b2f260-3403-40bb-82fc-a2d53105fbbe")
+		)
+		(instances
+			(project "STM_RF_PCB"
+				(path "/d4ad597f-d032-4e81-a375-ce3c44c27662"
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -10667,6 +10721,85 @@
 			(project "STM_RF_PCB"
 				(path "/d4ad597f-d032-4e81-a375-ce3c44c27662"
 					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 285.75 223.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "52f74f54-4209-45eb-82ee-5c7ea25a2716")
+		(property "Reference" "C15"
+			(at 289.56 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 289.56 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 286.7152 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 285.75 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 285.75 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part ID" "CL05B104KO5NNNC"
+			(at 285.75 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "27d5e4f1-d3f2-47e6-9070-a73c581de553")
+		)
+		(pin "1"
+			(uuid "7daeae84-a669-408b-88b5-45e4c40f3b48")
+		)
+		(instances
+			(project "STM_RF_PCB"
+				(path "/d4ad597f-d032-4e81-a375-ce3c44c27662"
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -10956,76 +11089,6 @@
 			(project "STM_RF_PCB"
 				(path "/d4ad597f-d032-4e81-a375-ce3c44c27662"
 					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 274.32 223.52 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6042c44e-7de9-474a-8b0e-e98ad606fdbd")
-		(property "Reference" "C14"
-			(at 278.13 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 278.13 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 275.2852 227.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 274.32 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 274.32 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b6875065-826b-4737-8487-259b7c6a0b67")
-		)
-		(pin "1"
-			(uuid "dd84bc18-3629-4410-b886-cf00ffea714c")
-		)
-		(instances
-			(project "STM_RF_PCB"
-				(path "/d4ad597f-d032-4e81-a375-ce3c44c27662"
-					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -12225,76 +12288,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 299.72 223.52 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "96a38229-8966-48c2-b29c-590fe62aef67")
-		(property "Reference" "C16"
-			(at 303.53 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 303.53 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 300.6852 227.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 299.72 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 299.72 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "093da0e4-a4c0-436c-91a8-f67c90ffaa4d")
-		)
-		(pin "1"
-			(uuid "920902a9-fe52-485c-811f-1cae21929a62")
-		)
-		(instances
-			(project "STM_RF_PCB"
-				(path "/d4ad597f-d032-4e81-a375-ce3c44c27662"
-					(reference "C16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Regulator_Linear:XC6206PxxxMR")
 		(at 132.08 35.56 0)
 		(unit 1)
@@ -12361,76 +12354,6 @@
 			(project "STM_RF_PCB"
 				(path "/d4ad597f-d032-4e81-a375-ce3c44c27662"
 					(reference "U3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 368.3 181.61 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9cbc746c-687b-414e-af48-6f5feb1ce8c0")
-		(property "Reference" "R5"
-			(at 370.84 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2.2k"
-			(at 370.84 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 366.522 181.61 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 368.3 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 368.3 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f6ed820a-9d6d-46a7-bb5a-7a04ba1bc99b")
-		)
-		(pin "1"
-			(uuid "a09d2f85-41b7-4b9e-9fcd-559fa00612f0")
-		)
-		(instances
-			(project "STM_RF_PCB"
-				(path "/d4ad597f-d032-4e81-a375-ce3c44c27662"
-					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -13236,6 +13159,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 299.72 223.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "baabaae1-d46e-4b54-af40-e40748ca4112")
+		(property "Reference" "C16"
+			(at 303.53 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 303.53 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 300.6852 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 299.72 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 299.72 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part ID" "CL05B104KO5NNNC"
+			(at 299.72 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "58e46dc4-3fe9-4795-b0a6-f703595c30e2")
+		)
+		(pin "1"
+			(uuid "36ece7c5-7f75-4f16-a788-a1c8f07088cb")
+		)
+		(instances
+			(project "STM_RF_PCB"
+				(path "/d4ad597f-d032-4e81-a375-ce3c44c27662"
+					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 27.94 50.8 0)
 		(unit 1)
@@ -13375,6 +13377,85 @@
 			(project "STM_RF_PCB"
 				(path "/d4ad597f-d032-4e81-a375-ce3c44c27662"
 					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 353.06 181.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c80dd124-1fca-4d25-8cb4-c61f6e058a14")
+		(property "Reference" "R4"
+			(at 355.6 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2k"
+			(at 355.6 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 351.282 181.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 353.06 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 353.06 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part ID" "0603WAF2201T5E"
+			(at 353.06 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c0612356-db86-46a9-83ab-38435bcd7323")
+		)
+		(pin "1"
+			(uuid "8cbcbdf1-c20b-41e6-8dc7-63cf8a42b238")
+		)
+		(instances
+			(project "STM_RF_PCB"
+				(path "/d4ad597f-d032-4e81-a375-ce3c44c27662"
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -13804,76 +13885,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 285.75 223.52 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e68810e1-e69f-4810-bdb2-54eac10be8fd")
-		(property "Reference" "C15"
-			(at 289.56 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 289.56 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 286.7152 227.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 285.75 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 285.75 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f024659a-c1b6-4e3c-8251-b08559fb8465")
-		)
-		(pin "1"
-			(uuid "6f845f43-fc3a-42ac-a41c-b8f31e6e2178")
-		)
-		(instances
-			(project "STM_RF_PCB"
-				(path "/d4ad597f-d032-4e81-a375-ce3c44c27662"
-					(reference "C15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_Coaxial")
 		(at 210.82 161.29 0)
 		(unit 1)
@@ -14013,6 +14024,85 @@
 			(project "STM_RF_PCB"
 				(path "/d4ad597f-d032-4e81-a375-ce3c44c27662"
 					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 368.3 181.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ec29d1e0-c39e-4515-b8ad-95552407d306")
+		(property "Reference" "R5"
+			(at 370.84 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2k"
+			(at 370.84 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 366.522 181.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 368.3 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 368.3 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part ID" "0603WAF2201T5E"
+			(at 368.3 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7469e21c-0f21-41bb-9377-ee1ae6d562d2")
+		)
+		(pin "1"
+			(uuid "7662b030-6b1a-4cb6-bab0-3c48f8d7175c")
+		)
+		(instances
+			(project "STM_RF_PCB"
+				(path "/d4ad597f-d032-4e81-a375-ce3c44c27662"
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -14255,7 +14345,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical"
 			(at 288.29 114.3 0)
 			(effects
 				(font
@@ -14274,6 +14364,15 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 288.29 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part ID" "HB-PH8-25425PB2GOP"
 			(at 288.29 114.3 0)
 			(effects
 				(font
@@ -14349,7 +14448,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 353.06 170.18 0)
 			(effects
 				(font
@@ -14369,6 +14468,15 @@
 		)
 		(property "Description" "Light emitting diode"
 			(at 353.06 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part ID" "19-217/GHC-YN1P2B18X/6T"
+			(at 353.06 170.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
