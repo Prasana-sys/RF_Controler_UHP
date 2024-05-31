@@ -9640,7 +9640,7 @@
 				)
 			)
 		)
-		(property "Value" "B"
+		(property "Value" "START"
 			(at 259.08 48.26 0)
 			(effects
 				(font
@@ -13438,7 +13438,7 @@
 				)
 			)
 		)
-		(property "Value" "A"
+		(property "Value" "SELECT"
 			(at 219.71 48.26 0)
 			(effects
 				(font
