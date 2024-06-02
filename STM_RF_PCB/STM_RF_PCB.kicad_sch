@@ -4910,10 +4910,6 @@
 		(uuid "2257b8b6-d6de-47b5-bf9a-c64e7baca269")
 	)
 	(no_connect
-		(at 342.9 161.29)
-		(uuid "2660edd8-0585-4e8d-a8ef-2012c7753772")
-	)
-	(no_connect
 		(at 283.21 116.84)
 		(uuid "3a517389-2115-4cd4-854e-6cd28a8b8ac3")
 	)
@@ -5556,6 +5552,16 @@
 			(type default)
 		)
 		(uuid "433facfe-7872-4bb5-bc43-84da1bbea406")
+	)
+	(wire
+		(pts
+			(xy 330.2 168.91) (xy 336.55 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44a7dfd6-bd68-49f8-bcb6-38106128d2ba")
 	)
 	(wire
 		(pts
@@ -6309,16 +6315,6 @@
 	)
 	(wire
 		(pts
-			(xy 330.2 166.37) (xy 336.55 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "999b2629-9473-4dad-b36d-e6eb701e45d8")
-	)
-	(wire
-		(pts
 			(xy 330.2 171.45) (xy 336.55 171.45)
 		)
 		(stroke
@@ -6656,6 +6652,16 @@
 			(type default)
 		)
 		(uuid "b8c5c8a2-c28a-431e-95a5-aad8cb248321")
+	)
+	(wire
+		(pts
+			(xy 330.2 166.37) (xy 336.55 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b99c52f0-d428-4ec9-b4d0-289e842224d4")
 	)
 	(wire
 		(pts
@@ -7269,16 +7275,6 @@
 	)
 	(wire
 		(pts
-			(xy 330.2 168.91) (xy 336.55 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f6915d4b-22b8-4513-8f69-02ab53511aea")
-	)
-	(wire
-		(pts
 			(xy 54.61 246.38) (xy 54.61 248.92)
 		)
 		(stroke
@@ -7636,7 +7632,7 @@
 	)
 	(global_label "Button_RT"
 		(shape input)
-		(at 336.55 168.91 0)
+		(at 336.55 166.37 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7646,7 +7642,7 @@
 		)
 		(uuid "2827f23a-5844-4fa8-b73d-3e32a6c2c1c4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 348.9088 168.91 0)
+			(at 348.9088 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7680,7 +7676,7 @@
 	)
 	(global_label "Button_LF"
 		(shape input)
-		(at 336.55 166.37 0)
+		(at 336.55 168.91 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7690,7 +7686,7 @@
 		)
 		(uuid "2f577610-8798-47df-85ae-84a62cd44109")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 348.7879 166.37 0)
+			(at 348.7879 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10141,7 +10137,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "STM32L432KBUx"
+		(property "Value" "STM32L432KBU6"
 			(at 319.6941 204.47 0)
 			(effects
 				(font
@@ -10150,7 +10146,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:UFQFPN-32-1EP_5x5mm_P0.5mm_EP3.5x3.5mm"
+		(property "Footprint" "Library:STM32L432KBU6"
 			(at 307.34 199.39 0)
 			(effects
 				(font
@@ -12717,7 +12713,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+		(property "Footprint" "Library:XC6206P332MR"
 			(at 132.08 29.845 0)
 			(effects
 				(font
