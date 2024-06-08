@@ -12639,6 +12639,18 @@
 			(justify left bottom mirror)
 		)
 	)
+	(gr_text "San Jose 2024"
+		(at 226 149.25 0)
+		(layer "B.SilkS")
+		(uuid "d6c7608d-0e13-4922-b54f-b13b60676e90")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.16)
+			)
+			(justify left bottom mirror)
+		)
+	)
 	(gr_text "JLCJLCJLCJLC"
 		(at 71 149.25 0)
 		(layer "F.SilkS")
